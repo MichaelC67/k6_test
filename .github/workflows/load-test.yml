@@ -10,5 +10,5 @@ jobs:
       - name: Run k6 local test
         uses: grafana/k6-action@v0.2.0
         with:
-          filename: my-first-test.js
+          filename: test.js
           flags: --vus 5 --duration 10s
