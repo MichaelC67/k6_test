@@ -1,4 +1,4 @@
-name: Main Workflow Load Test
+name: Main Workflow Load Test 
 on: [push]
 jobs:
   build:
